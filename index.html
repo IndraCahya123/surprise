@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apa hayooo</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box first-question" id="box-1">
+            <label for="nama">Kenalan dulu dong, <br> ketik namanya yaa</label>
+            <input type="text" class="nama" id="nama" name="nama" width="100%" required autofocus>
+            <button type="submit" class="btn nama-btn" id="nama_btn">Lanjut</button>
+        </div>
+        <div class="box second-question non-active" id="box-2">
+            <label for="kesukaan1">oke, pertanyaan untuk adel only, minuman kesukaannya apa ya?</label>
+            <input type="text" class="kesukaan1" id="kesukaan1" name="kesukaan1" width="100%" required autofocus>
+            <button type="submit" class="btn kesukaan1-btn" >Lanjut</button>
+        </div>
+        <div class="box third-question non-active" id="box-3">
+            <label for="kesukaan2">oke oke.., last question deh. Sebutkan satu makanan kesukaan adel !</label>
+            <input type="text" class="kesukaan2" width="100%" required autofocus>
+            <button type="submit" class="btn kesukaan2-btn" >Lanjut</button>
+        </div>
+        <div class="box wish-box non-active">
+            <label for="wish">Karena bener semua, berarti beneran adel ini hehe. <br>
+                Kalau gitu tulis wishnya dulu, baru lanjut hehe</label>
+            <textarea name="wish" id="wish" cols="30" rows="10" placeholder="Tulis wishmu disini yaa"></textarea>
+            <a href="./surprise.html" class="next-link" type="button">Lanjut</a>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
